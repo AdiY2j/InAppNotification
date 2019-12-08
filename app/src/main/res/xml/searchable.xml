@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="Merchandise"
+    android:hint="Search for Products"
+    android:searchSuggestAuthority="com.example.inappnotification.MySuggestionProvider"
+    android:searchSuggestSelection=" ?">
+</searchable>
