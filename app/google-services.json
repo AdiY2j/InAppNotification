@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "335580841356",
-    "firebase_url": "https://inappnotificationdemo.firebaseio.com",
-    "project_id": "inappnotificationdemo",
-    "storage_bucket": "inappnotificationdemo.appspot.com"
+    "project_number": "769936029489",
+    "firebase_url": "https://inappnotification-e3ec8.firebaseio.com",
+    "project_id": "inappnotification-e3ec8",
+    "storage_bucket": "inappnotification-e3ec8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:335580841356:android:dc05ea3825c3715d1802a9",
+        "mobilesdk_app_id": "1:769936029489:android:70b617460f5612e71de210",
         "android_client_info": {
           "package_name": "com.example.inappnotification"
         }
       },
       "oauth_client": [
         {
-          "client_id": "335580841356-2hfh6b5bnrsg89q1mi6hb6q7u6fl4tef.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.inappnotification",
-            "certificate_hash": "2368355910b49b746e430dc81561081da4dba6a8"
-          }
-        },
-        {
-          "client_id": "335580841356-ibu9srgpn3b7o1l9sc28d8lr7kr1nhk7.apps.googleusercontent.com",
+          "client_id": "769936029489-m3ds5lmq239e6b3vueeqvlgf9n3kbiev.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAqTYYQSrxUmnIxFtVnLk4PQzS4skIsGCg"
+          "current_key": "AIzaSyBz9iB5cOdX2MlWyzu-WAnMo5eVen1BPjw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "335580841356-ibu9srgpn3b7o1l9sc28d8lr7kr1nhk7.apps.googleusercontent.com",
+              "client_id": "769936029489-m3ds5lmq239e6b3vueeqvlgf9n3kbiev.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

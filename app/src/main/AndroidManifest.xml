@@ -9,17 +9,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.TestActivity">
-        </activity>
-        <activity android:name=".Activities.DemoActivity">
-        </activity>
-        <activity android:name=".Activities.MainActivity">
+        <service android:name=".Services.FirebaseService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Activities.SubscriptionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activities.TestActivity" />
+        <activity android:name=".Activities.DemoActivity">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name=".Activities.MainActivity">
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".Activities.DemoActivity" />
+        </activity>
+
+        <provider
+            android:name=".ContentProviders.MySuggestionProvider"
+            android:authorities="com.example.inappnotification.MySuggestionProvider" />
     </application>
 
 </manifest>
